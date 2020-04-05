@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qtquickcontrols2.conf</file>
+        <file>qml/BreathEmerge/Bed.qml</file>
+        <file>qml/BreathEmerge/CustomLabel.qml</file>
+        <file>qml/BreathEmerge/main.qml</file>
+        <file>qml/BreathEmerge/PageMachine.ui.qml</file>
+        <file>qml/BreathEmerge/PagePatient.ui.qml</file>
+        <file>qml/BreathEmerge/ScrollablePage.qml</file>
+        <file>icons/gallery/20x20/back.png</file>
+        <file>icons/gallery/20x20/drawer.png</file>
+        <file>icons/gallery/20x20/menu.png</file>
+        <file>icons/gallery/20x20@2/back.png</file>
+        <file>icons/gallery/20x20@2/drawer.png</file>
+        <file>icons/gallery/20x20@2/menu.png</file>
+        <file>icons/gallery/20x20@3/back.png</file>
+        <file>icons/gallery/20x20@3/drawer.png</file>
+        <file>icons/gallery/20x20@3/menu.png</file>
+        <file>icons/gallery/20x20@4/back.png</file>
+        <file>icons/gallery/20x20@4/drawer.png</file>
+        <file>icons/gallery/20x20@4/menu.png</file>
+        <file>icons/gallery/index.theme</file>
+        <file>images/arrow.png</file>
+        <file>images/arrow@2x.png</file>
+        <file>images/arrow@3x.png</file>
+        <file>images/arrow@4x.png</file>
+        <file>images/arrows.png</file>
+        <file>images/arrows@2x.png</file>
+        <file>images/arrows@3x.png</file>
+        <file>images/arrows@4x.png</file>
+        <file>images/qt-logo.png</file>
+        <file>images/qt-logo@2x.png</file>
+        <file>images/qt-logo@3x.png</file>
+        <file>images/qt-logo@4x.png</file>
+        <file>qml/BreathEmerge/Dashboard.ui.qml</file>
+        <file>qml/BreathEmerge/PageVerlauf.ui.qml</file>
+        <file>qml/BreathEmerge/CustomBox.qml</file>
+    </qresource>
+</RCC>
