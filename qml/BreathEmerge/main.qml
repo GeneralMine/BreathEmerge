@@ -93,6 +93,8 @@ Item {
                     }
                 }
 
+
+                // hardcoded test values!!!
                 model: ListModel{
                     ListElement{
                         zustand: "red"
@@ -118,7 +120,7 @@ Item {
                     PropertyChanges{
                         target: emergencyBox
                         height: 0
-                        visible: false
+                        //visible: false
                     }
                 },
                 State{
@@ -126,7 +128,7 @@ Item {
                     PropertyChanges{
                         target: emergencyBox
                         height: emergencyBoxView.contentHeight + 46
-                        visible: true
+                        //visible: true
                     }
                 }
             ]
@@ -446,6 +448,8 @@ Item {
         }
         ListModel {
             id: bedDataModel
+            // hardcoded test values!!!
+            // repräsentiert Datenstruktur
             ListElement {
                 //Patient - Wichtige Daten
                 zustand: "green"
