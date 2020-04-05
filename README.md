@@ -11,7 +11,7 @@ An IoT medical emergency machines management app for the "Give a Breath Challeng
 - Beatmungsvolumen
 - BeatmungsdruckEin
 - BeatmungsdruckAus
-    - min: PEEP: 5 Milibar
+    - min: PEEP: 5-10
 
 ## Design
 ### Dashboard
