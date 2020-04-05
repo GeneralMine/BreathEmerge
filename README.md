@@ -147,7 +147,7 @@ Eine Seite zu allen aktuellen Patienten relevanten Daten
     - Kalibrieren
     - Hilfe zum Gerät (Hersteller,Rufnummer)
 ### Notfallsystem
-- Notfallpopup
+- Notfallbereich
     - überlagert jeden Screen
     - springe direkt zum Patienten aus egal welchem Screen
     - Prioritätenliste der Notfälle
@@ -155,13 +155,46 @@ Eine Seite zu allen aktuellen Patienten relevanten Daten
         - nach Daten wie überlebensnotwendige Messwerte, Zeit, Schwere der Abweichung, möglich aber auch Alter und Diagnose
 - Systembenachrichtigung direkt zum Patient
 - Screen Border Animation / leuchtender Bildschirmrand entsprechend des Zustands
+- Statusleuchte als ToolButton zum öffnen des Notfallbereichs und UI Element in Drawer
 - Bett-/Patientenstatus
     - Grün, alles im Rahmen
     - Gelb, schnelle Änderungen in der Nähe der Toleranzen
     - Rot, Notfall, Messwerte über längeren Zeitraum außerhalb akzeptabler Krankheitsgrenzen
     - Grau, Verbindung verloren
-### Patientenregistrieren
+    
+### Patientenregistrierung
 //ToDo
-- Über LAN Geräte auswahl
-### Appeinstellungen
+
+### Geräteregistrierung
+- Über MQTT Geräteauswahl
 //ToDo
+
+### Einstellungen
+//ToDo
+
+## Umsetzung
+Die Umsetzung erfolgt in Qt für eine plattformübergreifende Nutzung und Kompatibilität zu diversen medizinischen Geräten
+
+### Fortschritt
+- Setup Qt QML App: done
+- Setup QT Charts: done
+- Setup Android Support: 90%
+- Objektorientierungshierarchie implementiert: done
+- Datenstruktur definiert: 90%
+- Material Design implementieren: done
+- Screens
+    - Dashboard: 30%
+    - Drawer: done
+    - Bett
+        - Patient: 20%
+        - Verlauf
+        - Maschine
+    - Notfallsystem
+        - Notfallpopup: done
+        - Systembenachrichtigung
+        - Screen Border Animation
+        - Statusleuchte ToolButton: done
+        - Statusleuchte Drawer: done
+    - Patientenregistrierung
+    - Geräteregistrierung
+    - Einstellungen
